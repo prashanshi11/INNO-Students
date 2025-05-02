@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">InnoStudent</string>
+    <string name="welcome_user">Welcome, %1$s</string>
+    <string name="your_projects">Your Projects</string>
+    <string name="project_name">Project</string>
+    <string name="submit_idea">Submit Idea</string>
+    <string name="find_collaborators">Find Collaborators</string>
+
+    <string-array name="roles">
+        <item>Student</item>
+        <item>Mentor</item>
+        <item>Admin</item>
+    </string-array>
+</resources>

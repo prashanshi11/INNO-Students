@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/home" />
+    <item
+        android:id="@+id/nav_projects"
+        android:title="Projects"
+        android:icon="@drawable/projects" />
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profile"
+        android:icon="@drawable/profile" />
+    <item
+        android:id="@+id/nav_feedback"
+        android:title="Feedback"
+        android:icon="@drawable/feedback" />
+    <item
+        android:id="@+id/nav_funding"
+        android:title="Funding"
+        android:icon="@drawable/funding" />
+</menu>

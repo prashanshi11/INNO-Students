@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A0E27"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Project Title -->
+        <TextView
+            android:id="@+id/tvDetailTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Project Title"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <!-- Project Description -->
+        <TextView
+            android:id="@+id/tvDetailDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Project Description"
+            android:textColor="#CCCCCC"
+            android:textSize="16sp"
+            android:paddingBottom="12dp" />
+
+        <!-- Student Name -->
+        <TextView
+            android:id="@+id/tvDetailStudentName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="👤 Student Name"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:paddingBottom="6dp" />
+
+        <!-- Date -->
+        <TextView
+            android:id="@+id/tvDetailDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📅 Date"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:paddingBottom="6dp" />
+
+        <!-- Status -->
+        <TextView
+            android:id="@+id/tvDetailStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🟢 Approved"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:paddingBottom="16dp" />
+
+        <!-- Upload Buttons -->
+        <Button
+            android:id="@+id/btnUploadDoc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📄 Upload Documentation"
+            android:backgroundTint="#2196F3"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/btnUploadSlides"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📊 Upload Presentation"
+            android:backgroundTint="#673AB7"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Feedback and Funding -->
+        <Button
+            android:id="@+id/btnSubmitFeedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="💬 Submit Feedback"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/btnFundProject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="💰 Fund Project"
+            android:backgroundTint="#FF9800"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>

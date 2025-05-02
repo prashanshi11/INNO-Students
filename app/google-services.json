@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "157511901787",
+    "project_id": "innostudent-df4fb",
+    "storage_bucket": "innostudent-df4fb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157511901787:android:6ce81b6bf5e97229e8957e",
+        "android_client_info": {
+          "package_name": "com.example.innostudent"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjqyp8T2BSJJIKQN6oyc24lrDIULAKrjk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

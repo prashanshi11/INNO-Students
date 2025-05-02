@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0A0E27"
+    android:padding="24dp">
+
+    <!-- Header Section -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome Back"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Project Cards Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Projects"
+        android:textColor="#80FFFFFF"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Project Cards Container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="24dp">
+
+        <!-- Project Card 1 -->
+        <LinearLayout
+            android:id="@+id/cardProject1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:background="#12142B"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Project X"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <!-- Project Card 2 -->
+        <LinearLayout
+            android:id="@+id/cardProject2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:background="#12142B"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Project Y"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Action Buttons Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#12142B"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/btnSubmitIdea"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Submit New Idea"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#1E88E5"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnFindCollaborators"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Find Collaborators"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#1E88E5" />
+    </LinearLayout>
+
+</LinearLayout>
