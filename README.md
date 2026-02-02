@@ -41,6 +41,7 @@
 - **Backend:** Firebase (Authentication, Firestore, Storage)
 
 ---
+![signup](https://github.com/user-attachments/assets/460c5873-c834-4318-a3ec-ecaed4276466)
 
 ## 📲 Getting Started
 
