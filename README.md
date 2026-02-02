@@ -41,7 +41,12 @@
 - **Backend:** Firebase (Authentication, Firestore, Storage)
 
 ---
-![login](https://github.com/user-attachments/assets/f0ebe986-f0d1-49f0-a67c-4a49743b91ce)![signup](https://github.com/user-attachments/assets/460c5873-c834-4318-a3ec-ecaed4276466)![project list](https://github.com/user-attachments/assets/bc01aa1f-ae9b-44c5-b1a3-857f315cee22)![submit new project](https://github.com/user-attachments/assets/e488749d-810a-4191-a71a-8b05ca1356e8)![feedback](https://github.com/user-attachments/assets/71c953ed-a063-4c6b-828b-143308ab426d)![funding](https://github.com/user-attachments/assets/b9809bbd-ba0f-4137-84f0-de0b210f4c22)
+<img src="https://github.com/user-attachments/assets/f0ebe986-f0d1-49f0-a67c-4a49743b91ce" width="400"/>
+<img src="https://github.com/user-attachments/assets/460c5873-c834-4318-a3ec-ecaed4276466" width="400"/>
+<img src="https://github.com/user-attachments/assets/bc01aa1f-ae9b-44c5-b1a3-857f315cee22" width="400"/>
+<img src="https://github.com/user-attachments/assets/e488749d-810a-4191-a71a-8b05ca1356e8" width="400"/>
+<img src="https://github.com/user-attachments/assets/71c953ed-a063-4c6b-828b-143308ab426d" width="400"/>
+<img src="https://github.com/user-attachments/assets/b9809bbd-ba0f-4137-84f0-de0b210f4c22" width="400"/>
 
 
 
